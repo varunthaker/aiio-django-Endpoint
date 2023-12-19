@@ -1,5 +1,5 @@
 // README.md
-# AIIO DJANDO EndPoint
+# AIIO Django Backend
 
 ### Introduction
 The Task aims to get Products, Sub-catagories and Sub-Products list and add new subcatagories, subProducts
