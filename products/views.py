@@ -22,7 +22,7 @@ def subCatagory_list(request):
     if request.method == "GET":
         subCatagories = Subcatergory.objects.all()
         serializer = SubCatagorySerializer(subCatagories, many = True)
-        return JsonResponse({'subcatagories':serializer.data})
+        return JsonResponse({'subcategories':serializer.data})
     if request.method == "POST":
         serializer = SubCatagorySerializer(data = request.data)
         if serializer.is_valid():
