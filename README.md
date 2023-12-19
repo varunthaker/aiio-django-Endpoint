@@ -15,7 +15,7 @@ The Task aims to get Products, Sub-catagories and Sub-Products list and add new 
   
 ### API End points
 * GET all Products (http://127.0.0.1:8000/products/)
-* GET all Sub-Catagories & POST a subCatagories (http://127.0.0.1:8000/subcatagories/)
+* GET all Sub-Catagories & POST a subCatagories (http://127.0.0.1:8000/subcategories/)
 * GET all Sub-Products & POST a subProduct (http://127.0.0.1:8000/subproducts/)
   
 
