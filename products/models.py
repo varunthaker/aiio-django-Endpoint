@@ -1,15 +1,12 @@
 from django.db import models
 
 class Product(models.Model):
-    productId = models.IntegerField()
     productName = models.CharField(max_length=200)
 
 class Subcatergory(models.Model):
-    productId = models.IntegerField()
-    subCategoryId = models.IntegerField()
+    productId = models.ForeignKey(Product, on_delete=models.CASCADE)
     subCategoryName = models.CharField(max_length = 200)
 
 class Subproduct(models.Model):
-    subCategoryId = models.IntegerField()
-    subProductId = models.IntegerField()
+    subCategoryId = models.ForeignKey(Subcatergory, on_delete=models.CASCADE)
     subProductName = models.CharField(max_length = 200)

@@ -6,14 +6,14 @@ from .models import Subproduct
 class ProductSerializer(serializers.ModelSerializer):
     class Meta:
         model = Product
-        fields = ['productId', 'productName']
+        fields = ['id', 'productName']
 
 class SubCatagorySerializer(serializers.ModelSerializer):
     class Meta:
         model = Subcatergory
-        fields = ['productId', 'subCategoryId', 'subCategoryName']
+        fields = ['id', 'productId', 'subCategoryName']
 
 class SubProductSerializer(serializers.ModelSerializer):
     class Meta:
         model = Subproduct
-        fields = ['subCategoryId', 'subProductId', 'subProductName']
+        fields = ['id', 'subCategoryId', 'subProductName']
