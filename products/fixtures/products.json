@@ -1,0 +1,16 @@
+[
+  {
+    "model": "products.Product",
+    "pk": 1,
+    "fields": {
+      "productName": "Electric Motors"
+    }
+  },
+  {
+    "model": "products.Product",
+    "pk": 2,
+    "fields": {
+      "productName": "Communication Equipment"
+    }
+  }
+]

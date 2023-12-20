@@ -1,0 +1,162 @@
+[
+  {
+    "model": "products.Subproduct",
+    "pk": 1,
+    "fields": {
+      "subCategoryId": 1,
+      "subProductName": "Blue Collectors"
+    }
+  },
+  {
+    "model": "products.Subproduct",
+    "pk": 2,
+    "fields": {
+      "subCategoryId": 1,
+      "subProductName": "Red Collectors"
+    }
+  },
+  {
+    "model": "products.Subproduct",
+    "pk": 3,
+    "fields": {
+      "subCategoryId": 2,
+      "subProductName": "Yellow Collectors"
+    }
+  },
+  {
+    "model": "products.Subproduct",
+    "pk": 4,
+    "fields": {
+      "subCategoryId": 2,
+      "subProductName": "White Collectors"
+    }
+  },
+  {
+    "model": "products.Subproduct",
+    "pk": 5,
+    "fields": {
+      "subCategoryId": 3,
+      "subProductName": "Black Collectors"
+    }
+  },
+  {
+    "model": "products.Subproduct",
+    "pk": 6,
+    "fields": {
+      "subCategoryId": 3,
+      "subProductName": "Green Collectors"
+    }
+  },
+  {
+    "model": "products.Subproduct",
+    "pk": 7,
+    "fields": {
+      "subCategoryId": 4,
+      "subProductName": "Orange Collectors"
+    }
+  },
+  {
+    "model": "products.Subproduct",
+    "pk": 8,
+    "fields": {
+      "subCategoryId": 4,
+      "subProductName": "Purple Collectors"
+    }
+  },
+  {
+    "model": "products.Subproduct",
+    "pk": 9,
+    "fields": {
+      "subCategoryId": 5,
+      "subProductName": "Wheat Collectors"
+    }
+  },
+  {
+    "model": "products.Subproduct",
+    "pk": 10,
+    "fields": {
+      "subCategoryId": 5,
+      "subProductName": "Current Collectors"
+    }
+  },
+  {
+    "model": "products.Subproduct",
+    "pk": 11,
+    "fields": {
+      "subCategoryId": 6,
+      "subProductName": "Blue Collectors"
+    }
+  },
+  {
+    "model": "products.Subproduct",
+    "pk": 12,
+    "fields": {
+      "subCategoryId": 6,
+      "subProductName": "Red Collectors"
+    }
+  },
+  {
+    "model": "products.Subproduct",
+    "pk": 13,
+    "fields": {
+      "subCategoryId": 7,
+      "subProductName": "Yellow Collectors"
+    }
+  },
+  {
+    "model": "products.Subproduct",
+    "pk": 14,
+    "fields": {
+      "subCategoryId": 7,
+      "subProductName": "White Collectors"
+    }
+  },
+  {
+    "model": "products.Subproduct",
+    "pk": 15,
+    "fields": {
+      "subCategoryId": 8,
+      "subProductName": "Black Collectors"
+    }
+  },
+  {
+    "model": "products.Subproduct",
+    "pk": 16,
+    "fields": {
+      "subCategoryId": 8,
+      "subProductName": "Green Collectors"
+    }
+  },
+  {
+    "model": "products.Subproduct",
+    "pk": 17,
+    "fields": {
+      "subCategoryId": 9,
+      "subProductName": "Orange Collectors"
+    }
+  },
+  {
+    "model": "products.Subproduct",
+    "pk": 18,
+    "fields": {
+      "subCategoryId": 9,
+      "subProductName": "Purple Collectors"
+    }
+  },
+  {
+    "model": "products.Subproduct",
+    "pk": 19,
+    "fields": {
+      "subCategoryId": 10,
+      "subProductName": "Wheat Collectors"
+    }
+  },
+  {
+    "model": "products.Subproduct",
+    "pk": 20,
+    "fields": {
+      "subCategoryId": 10,
+      "subProductName": "Current Collectors"
+    }
+  }
+]

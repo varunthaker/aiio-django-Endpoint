@@ -4,16 +4,20 @@ from .models import Subcatergory
 from .models import Subproduct
 
 class ProductSerializer(serializers.ModelSerializer):
+    productId = serializers.IntegerField(source='id', read_only=True)
     class Meta:
         model = Product
-        fields = ['id', 'productName']
+        fields = ['productId', 'productName']
 
 class SubCatagorySerializer(serializers.ModelSerializer):
+    subCategoryId = serializers.IntegerField(source='id', read_only=True)
     class Meta:
         model = Subcatergory
-        fields = ['id', 'productId', 'subCategoryName']
+        fields = ['subCategoryId', 'productId', 'subCategoryName']
 
 class SubProductSerializer(serializers.ModelSerializer):
+    subProductId = serializers.IntegerField(source='id', read_only=True)
+
     class Meta:
         model = Subproduct
-        fields = ['id', 'subCategoryId', 'subProductName']
+        fields = ['subProductId', 'subCategoryId', 'subProductName']
